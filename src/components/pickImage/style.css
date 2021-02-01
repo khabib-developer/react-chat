@@ -1,0 +1,68 @@
+.wrapper {
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.item {
+	width: 250px;
+}
+
+.image {
+	margin-top: 40%;
+	width: 200px;
+	height: 200px;
+	border: 2px #f7f7ff solid;
+	border-radius: 50%;
+	background:url(../../image/user.png);
+	background-position: center;
+	background-size: 100%;
+	color: #f7f7ff;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.userName {
+	margin-top: 35%;
+	font-size: 2em;
+	border-bottom: 2px #555 solid;
+	padding-bottom: 2px
+}
+
+.userName input {
+	width: 100%;
+	background-color: transparent !important;
+	color: #555 !important;
+	text-align: center;
+	padding: 0 !important;
+	border:none;
+	outline: none;
+}
+
+.pick {
+	position: absolute;
+	width:200px;
+	height: 200px;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.submit button {
+	margin-top: 50%;
+	background-color: #f7f7ff;
+	border: 2px #f7f7ff solid;
+	border-radius: 6px;
+	color:#303841;
+	width: 80%;
+	padding:5px 0;
+	outline: none;
+	transition: .5s ease
+}
+.submit button:hover {
+	color:#f7f7ff;
+	background-color: #303841;
+}

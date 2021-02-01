@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+    font-family: "Public Sans",sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057 !important;
+    text-align: left;
+    background-color: #F5F7FB;
+    /*background-color: #303841;*/
+}
+@media screen and (max-width: 992px) {
+	.layout__wrapper {
+		flex-direction: row;
+	}
+}

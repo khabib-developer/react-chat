@@ -1,0 +1,26 @@
+
+.account__pages {
+    background-color: #f7f7ff !important;
+    height:100vh;
+    text-align: left;
+}
+.card {
+    transition: .5s ease
+}
+input {
+    background-color: #f7f7ff !important;
+    /*width: 100%;*/
+    flex:auto;
+    outline: none;
+    border: none;
+    padding-left: 1em;
+    font-size: 0.875em;
+}
+.icons {
+    background-color: #f7f7ff !important;
+    padding: 10px 15px;
+    font-size: 0.875em;
+}
+.sign {
+    color: #495057 !important;
+}
